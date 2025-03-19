@@ -1,82 +1,83 @@
 ###############################
 #ZH_CN中文汉化文档By:Moflop   #
+#牢大为什么要起这么中二的名字，GPT都不知道怎么翻英文了
 ###############################
 
 #刀之铭
 
-item.moflop.slashblade.ananke.name=§6宿命行星·阿南刻§e「天数裁定」
-item.moflop.slashblade.antauge.name=§6安托则斯§a「冥光万法」
-item.moflop.slashblade.nyx.name=§6聚变之星·倪克斯§d「辰宿瞬变」
-item.moflop.slashblade.chaos.name=§6卡俄斯§4「溟濛万象」
-item.moflop.slashblade.deligun.name=§6德雷格兰§b「圣契」
-item.moflop.slashblade.tartarus.name=§6塔耳塔洛斯§4「渊狱之锁」
-item.moflop.slashblade.artemis.name=§6阿尔忒弥斯§1「影月」
-item.moflop.slashblade.artemis_s.name=§6阿尔忒弥斯§a「耀月」
-item.moflop.slashblade.hercules.name=§6海格力斯§e「闪耀之星」
-item.moflop.slashblade.nier.name=§6尼尔§f「永恒旋转之枪」
-item.moflop.slashblade.chronos.name=§6伊恩§7「永恒时光之轮·永劫根源魔枪」
-item.moflop.slashblade.chronos_ae.name=§6柯罗诺斯§4「万古琨矇」
-item.moflop.slashblade.chronos_sy.name=§6柯罗诺斯§b「始源之枪」
-item.moflop.slashblade.erebus.name=§6厄瑞波斯§8「永黯沉寂」
-item.moflop.slashblade.chronosn.name=§6柯罗诺斯§c「永境之主」
-item.moflop.slashblade.protogenoi.name=§6普洛托革诺伊§5「始源」
-item.moflop.negorerouse.nrSlashBlade.name=§6残损神骸§0「神名·无铭」
+item.moflop.slashblade.ananke.name=§e「The Judgment Of Cosmos」§6Fateful Star · Ananke
+item.moflop.slashblade.antauge.name=§a「Creeping Dark Light」§6Antauge
+item.moflop.slashblade.nyx.name=§d「The Fleeting Sky」§6Fusion Star · Nyx
+item.moflop.slashblade.chaos.name=§4「The Cosmic Mystery」§6Chaos
+item.moflop.slashblade.deligun.name=§b「Sacred Covenant」§6Deligun
+item.moflop.slashblade.tartarus.name=§4「Lock Of Abyss」§6Tartarus
+item.moflop.slashblade.artemis.name=§1「Shadow Moon」§6Artemis
+item.moflop.slashblade.artemis_s.name=§a「Clear Moon」§6Artemis
+item.moflop.slashblade.hercules.name=§e「Shining Star」§6Hercules
+item.moflop.slashblade.nier.name=§f「Eternal Spinning Spear」§6Nier
+item.moflop.slashblade.chronos.name=§7「Eternal Time Gear · The All Sin Spear」§6Aeon
+item.moflop.slashblade.chronos_ae.name=§4「Eternity」§6Chronos
+item.moflop.slashblade.chronos_sy.name=§b「The First Spear」§6Chronos
+item.moflop.slashblade.erebus.name=§8「The Fading Dark」§6Erebus
+item.moflop.slashblade.chronosn.name=§c「The Lord Of The Eternal」§6Chronos
+item.moflop.slashblade.protogenoi.name=§5「The Origin」§6Protogenoi
+item.moflop.negorerouse.nrSlashBlade.name=§0「None · The Nameless One」§6Damaged God's Relic
 
 #物之铭
 
-item.nrSoul.name=神残魂
+item.nrSoul.name=God‘s Soul
 
 
 #物之言
 
-aritemis=阿尔忒弥斯
-aritemis.SE=神谕Ⅰ
-chronos=柯罗诺斯
-chronos.SE=神谕Ⅰ
-hercules=海格力斯
-hercules.SE=神谕Ⅰ
-soulMix=普洛托革诺伊
-soulMix.SE=绝对神力Ⅰ
-erebus=厄瑞波斯
-erebus.SE=负向神力Ⅰ
-fate=阿南刻
-fate.SE=烔侧Ⅰ
-tartarus=塔耳塔洛斯
-tartarus.SE=禁锢Ⅰ
-chaos=卡俄斯
-chaos.SE=神谕Ⅰ
+aritemis=Artemis
+aritemis.SE=Oracle Ⅰ
+chronos=Chronos
+chronos.SE=Oracle Ⅰ
+hercules=Hercules
+hercules.SE=Oracle Ⅰ
+soulMix=Protogenoi
+soulMix.SE=Absolute PowerⅠ
+erebus=Erebus
+erebus.SE=Negative PowerⅠ
+fate=Ananke
+fate.SE=Fate Ⅰ
+tartarus=Tartarus
+tartarus.SE=Lock Ⅰ
+chaos=Chaos
+chaos.SE=Oracle Ⅰ
 
 
 
 #神之裁
-flammpfeil.slashblade.specialattack.BurningFireSA=§4§l绝·「焚驱万海的拂晓水平线」
-flammpfeil.slashblade.specialattack.MagneticStormSword=§a§l磁暴幻影剑-原型
-flammpfeil.slashblade.specialattack.DivineCrossSA=§f§l断·「天光绝影的白昼肇开线」
-flammpfeil.slashblade.specialattack.Zenith12th=§6§l决·苍穹之十二连
-flammpfeil.slashblade.specialattack.ExcessBlade=§6§l终曲·「剑气弹射」
-flammpfeil.slashblade.specialattack.OverTheHorizon=§b§l空·「织罗空间的维度平行线」
-flammpfeil.slashblade.specialattack.CosmicLine=§5§l极·「轰震星宿的环宇天界线」
+flammpfeil.slashblade.specialattack.BurningFireSA=§4§lAbsolute ·「Scorching Inferno」
+flammpfeil.slashblade.specialattack.MagneticStormSword=§a§lMagnet Storm Phantom Sword - Prototype
+flammpfeil.slashblade.specialattack.DivineCrossSA=§f§lBreak ·「The Daylight Of The Shadowless Sky」
+flammpfeil.slashblade.specialattack.Zenith12th=§6§lDecision · Zenith Twelve Slash
+flammpfeil.slashblade.specialattack.ExcessBlade=§6§lFinale ·「Critical Drive」
+flammpfeil.slashblade.specialattack.OverTheHorizon=§b§lSora · 「Parallel Lines Of The Weaving Space Dimension」
+flammpfeil.slashblade.specialattack.CosmicLine=§5§lExtreme · 「The Sky Boundary Line of The Quasar」
 
 #刀之技
 
-slashblade.seffect.name.oracle=§a§l神谕
-slashblade.seffect.name.burstDrive=§7§l爆裂性
-slashblade.seffect.name.reversePower=§7§l负向神力
-slashblade.seffect.name.absolutePower=§a§l绝对神力
-slashblade.seffect.name.back=§c§l回溯
-slashblade.seffect.name.purgatory=§4§l禁锢
-slashblade.seffect.name.clear=§b§l清曜
-slashblade.seffect.name.instKill=§7§l「虚诞」
-slashblade.seffect.name.eternity=§4§k9125§6§l永恒瞳矇§4§k9521
-slashblade.seffect.name.fate=§6§l炯恻
-slashblade.seffect.name.deadlock=§c§l禁锢
-slashblade.seffect.name.phantom=§5§l幻影
+slashblade.seffect.name.oracle=§a§lOracle
+slashblade.seffect.name.burstDrive=§7§lBurst Drive
+slashblade.seffect.name.reversePower=§7§lNegative Power
+slashblade.seffect.name.absolutePower=§a§lAbsolute Power
+slashblade.seffect.name.back=§c§lReverse
+slashblade.seffect.name.purgatory=§4§lLock
+slashblade.seffect.name.clear=§b§lClear
+slashblade.seffect.name.instKill=§7§l「EMPTY」
+slashblade.seffect.name.eternity=§4§k9125§6§lEternity§4§k9521
+slashblade.seffect.name.fate=§6§lFate
+slashblade.seffect.name.deadlock=§c§lLock
+slashblade.seffect.name.phantom=§5§lPhantom
 
 
 #其他
 
-itemGroup.nrItem=神の遗物
-moflop.info.negoreRouse=神
+itemGroup.nrItem=God's Relic
+moflop.info.negoreRouse=God
 
 #代码	官方名称
 #MOTD代码

@@ -26,6 +26,8 @@ public class EntityDriveEx extends EntityBase
     private static final DataParameter<Integer> INTERVAL = EntityDataManager.<Integer>createKey(EntityDriveEx.class,DataSerializers.VARINT);
 
     private static final DataParameter<String> PARTICLE = EntityDataManager.<String>createKey(EntityDriveEx.class,DataSerializers.STRING);
+
+    private static final DataParameter<Float> MAXDISTANCE = EntityDataManager.<Float>createKey(EntityDriveEx.class,DataSerializers.FLOAT);
     /**
      * コンストラクタ
      *
@@ -65,6 +67,7 @@ public class EntityDriveEx extends EntityBase
         manager.register(IS_MULTI_HIT, false);
         manager.register(IS_OVER_WALL, false);
         manager.register(INTERVAL, 0);
+        manager.register(MAXDISTANCE, 80f);
         manager.register(PARTICLE, "");
     }
 
@@ -102,6 +105,14 @@ public class EntityDriveEx extends EntityBase
         this.getDataManager().set(PARTICLE,value.toString());
     }
 
+
+    public float getMaxDistance(){
+        return this.getDataManager().get(MAXDISTANCE);
+    }
+    public void setMaxDistance(Float value){
+        this.getDataManager().set(MAXDISTANCE,value);
+    }
+
     /**
      * エンティティの更新処理.
      *
@@ -115,7 +126,7 @@ public class EntityDriveEx extends EntityBase
         if(getInterval() < this.ticksExisted)
             move();
 
-        if (this.ticksExisted >= getLifeTime())
+        if (this.ticksExisted >= getLifeTime()||(this.getDistance(thrower_)>=getMaxDistance()))
             setDead();
     }
 

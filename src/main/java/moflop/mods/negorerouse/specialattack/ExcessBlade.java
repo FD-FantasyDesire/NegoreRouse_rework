@@ -94,6 +94,7 @@ public class ExcessBlade extends SpecialAttackBase {
                     );
                     entityDrive.setInterval(5);
                     entityDrive.setLifeTime(60);
+                    entityDrive.setMaxDistance(45f);
                     entityDrive.setScale(2.0f);
                     entityDrive.setParticle(EnumParticleTypes.ENCHANTMENT_TABLE);
                     entityDrive.setIsOverWall(true);

@@ -21,8 +21,11 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Enchantments;
+import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemAir;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.PotionEffect;
@@ -60,7 +63,6 @@ public class NrSEEvent {
         ItemStack blade = event.blade;
         if (!(blade.getItem() instanceof ItemNrSlashBlade)) return;
         if (!event.blade.getUnlocalizedName().equals(BladeUtils.findItemStack(NegoreRouse.MODID,"moflop.slashblade.chronos_sy",1).getUnlocalizedName())) return;
-
         EntityPlayer player = (EntityPlayer) event.user;
         switch (SpecialEffects.isEffective(player, event.blade, NrSEs.INSTKILL)){
             case None:
@@ -70,7 +72,7 @@ public class NrSEEvent {
             case NonEffective:
                 return;
         }
-        DamageSource ds = new EntityDamageSource("directMagic",player).setDamageBypassesArmor().setDamageIsAbsolute().setDamageAllowedInCreativeMode();
+        DamageSource ds = new EntityDamageSource("InstKill",player).setDamageBypassesArmor().setDamageIsAbsolute().setDamageAllowedInCreativeMode();
         event.target.attackEntityFrom(ds, Integer.MAX_VALUE);
         blade.setItemDamage(blade.getItemDamage()+1);
 //        ItemSlashBlade.damageItem(blade,9999999,player);

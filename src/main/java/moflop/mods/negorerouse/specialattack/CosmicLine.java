@@ -97,6 +97,7 @@ public class CosmicLine extends SpecialAttackBase {
                         player.getLookVec().z+player.posZ
                 );
                 entityDrive.setColor(0xCF00CF);
+                entityDrive.setMaxDistance(40f);
                 entityDrive.setLifeTime(20*5);
                 entityDrive.setParticle(EnumParticleTypes.SPELL_WITCH);
                 world.spawnEntity(entityDrive);

@@ -106,6 +106,7 @@ public class BurningFireSA extends SpecialAttackBase {
                 entity.setInitialPosition(spawnpos.x, spawnpos.y, spawnpos.z, yaw, pitch,0,0.3f+0.05f*f);
                 entity.setInterval(5+f*5);
                 entity.setLifeTime(100);
+                entity.setMaxDistance(40f);
                 entity.setIsOverWall(true);
                 entity.setParticle(EnumParticleTypes.LAVA);
                 entity.setPosition(

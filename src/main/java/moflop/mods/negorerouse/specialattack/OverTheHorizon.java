@@ -69,6 +69,7 @@ public class OverTheHorizon extends SpecialAttackBase {
             }
             EntityDriveEx entityDrive = new EntityDriveEx(world,player,magicDamage);
             entityDrive.setLifeTime(100);
+            entityDrive.setMaxDistance(30f);
             entityDrive.setScale(count);
             entityDrive.setInitialPosition(player.posX+player.getLookVec().x,
                     player.posY+player.getLookVec().y,
