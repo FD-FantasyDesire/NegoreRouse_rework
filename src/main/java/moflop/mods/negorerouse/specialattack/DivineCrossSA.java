@@ -80,7 +80,7 @@ public class DivineCrossSA extends SpecialAttackBase {
                 );
                 entityDrive.setColor(rolls ? 0xFF00FF : 0xFFFFFF);
                 entityDrive.setScale(10.0f);
-                entityDrive.setMaxDistance(10f);
+                entityDrive.setMaxDistance(60f);
                 entityDrive.setLifeTime(200);
                 entityDrive.setMultiHit(true);
                 entityDrive.setIsOverWall(true);

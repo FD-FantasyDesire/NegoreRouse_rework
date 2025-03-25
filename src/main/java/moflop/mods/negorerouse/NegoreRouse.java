@@ -25,7 +25,7 @@ import org.apache.logging.log4j.Logger;
 public class NegoreRouse {
     public static final String MODID = "negorerouse";
     public static final String NAME = "NegroeRouse";
-    public static final String VER = "r3";/** 版本号 */
+    public static final String VER = "r4";/** 版本号 */
     public static final String DEP = "required-after:flammpfeil.slashblade@[mc1.12-r30,);";/** 依赖拔刀剑版本 */
     public static final String[] AUTHOR = {"Moflop","AbbyQAQ","X_Big_Bean","JSC_Luciela","JSC_FSGRKV","Cat","520","TennouboshiUzume"};/** 制作者名单[排名不分先后] */
 // 2024
