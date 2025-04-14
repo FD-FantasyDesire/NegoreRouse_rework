@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = 'r4-mc1.12.2'
+version = 'r5-mc1.12.2'
 group = 'moflop.mods.negorerouse' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'negorerouse'
 

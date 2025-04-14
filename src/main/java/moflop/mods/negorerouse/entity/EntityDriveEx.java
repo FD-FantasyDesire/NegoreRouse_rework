@@ -125,8 +125,8 @@ public class EntityDriveEx extends EntityBase
             detectCollision(getScale());
         if(getInterval() < this.ticksExisted)
             move();
-
-        if (this.ticksExisted >= getLifeTime()||(this.getDistance(thrower_)>=getMaxDistance()))
+//      检测生命周期，射程，发射玩家来删除实体
+        if (this.ticksExisted >= getLifeTime()||(this.thrower_!=null && (this.getDistance(thrower_)>=getMaxDistance())))
             setDead();
     }
 
